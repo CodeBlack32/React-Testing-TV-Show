@@ -25,6 +25,7 @@ export default function App() {
   });
 
   const handleSelect = e => {
+    e.preventDefault(e);
     setSelectedSeason(e.value);
   };
 
